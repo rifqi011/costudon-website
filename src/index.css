@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-yellow: #FFDC58;
+    --color-light-yellow: #FEFB98;
+    --color-teal: #8CE6DB;
+    
+    --font-lexend: 'Lexend Mega', sans-serif;
+}
