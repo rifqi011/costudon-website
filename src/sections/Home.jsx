@@ -14,7 +14,7 @@ export default function Home() {
 			</div>
 
 			<div className="flex flex-col gap-4 items-center">
-				<p className="text-base">Selamat datang di repository PPLG 1 '26! Kami percaya pada semangat open source: berbagi, berkolaborasi, dan terus berkembang.Selamat datang di repository PPLG 1 '26! Kami percaya pada semangat open source: berbagi, berkolaborasi, dan terus berkembang.</p>
+				<p className="text-base">Selamat datang di repository PPLG 1 '26! Kami percaya pada semangat open source: berbagi, berkolaborasi, dan terus berkembang.</p>
 
 				<div className="flex gap-4 justify-center">
 					<SocialIcon href="https://tiktok.com/@costudon">
