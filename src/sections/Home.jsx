@@ -9,12 +9,12 @@ export default function Home() {
 
 			<h2 className="text-xl font-medium">"Yang Penting Selesai."</h2>
 
-            <div className="h-56 object-cover my-6 overflow-hidden shadow-black rounded-xl border-3 border-black">
-                <img src="./images/landing-page/1.jpg" className="bg-cover bg-top" alt="Fotbar" />
-            </div>
+			<div className="h-56 object-cover my-6 overflow-hidden shadow-black rounded-xl border-3 border-black">
+				<img src="./images/landing-page/1.jpg" className="bg-cover bg-top" alt="Fotbar" />
+			</div>
 
 			<div className="flex flex-col gap-4 items-center">
-				<p className="text-base">Selamat datang di repository PPLG 1 '26! Di sini, setiap siswa adalah seorang contributor, ide adalah pull request yang siap di-merge, dan pembelajaran adalah branch yang tak pernah berhenti berinovasi.</p>
+				<p className="text-base">Selamat datang di repository PPLG 1 '26! Kami percaya pada semangat open source: berbagi, berkolaborasi, dan terus berkembang.Selamat datang di repository PPLG 1 '26! Kami percaya pada semangat open source: berbagi, berkolaborasi, dan terus berkembang.</p>
 
 				<div className="flex gap-4 justify-center">
 					<SocialIcon href="https://tiktok.com/@costudon">
@@ -29,11 +29,11 @@ export default function Home() {
 						</svg>
 					</SocialIcon>
 				</div>
-            </div>
-            
-            <ButtonPrimary href={"#about"} className={"mt-8"}>
-                Tentang Kami
-            </ButtonPrimary>
+			</div>
+
+			<ButtonPrimary href={"#about"} className={"mt-8"}>
+				Tentang Kami
+			</ButtonPrimary>
 		</Section>
 	)
 }
