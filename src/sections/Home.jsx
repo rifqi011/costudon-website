@@ -1,6 +1,7 @@
 import Section from "../components/Section"
 import ButtonPrimary from "../components/ButtonPrimary"
 import SocialIcon from "../components/SocialIcon"
+import Image from "../components/Image"
 
 export default function Home() {
 	return (
@@ -9,9 +10,7 @@ export default function Home() {
 
 			<h2 className="text-xl font-medium">"Yang Penting Selesai."</h2>
 
-			<div className="h-56 object-cover my-6 overflow-hidden shadow-black rounded-xl border-3 border-black">
-				<img src="./images/landing-page/1.jpg" className="bg-cover bg-top" alt="Fotbar" />
-			</div>
+            <Image src={"./images/landing-page/1.jpg"} className={"h-56 my-6 bg-bottom"} alt="Hero Image" />
 
 			<div className="flex flex-col gap-4 items-center">
 				<p className="text-base">Selamat datang di repository PPLG 1 '26! Kami percaya pada semangat open source: berbagi, berkolaborasi, dan terus berkembang.</p>
