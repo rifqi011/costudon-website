@@ -1,0 +1,23 @@
+[
+	{
+		"id": 1,
+		"name": "Rifqi Banu Safingi",
+		"instagram": "alcyoneuzz",
+		"quote": "ling ga guli guli guli guaca lung ga guu",
+		"image": "dummy.jpg"
+	},
+	{
+		"id": 2,
+		"name": "Rizqi Raditya Paaramita",
+		"instagram": "rizqi_raditya1",
+		"quote": "Kalo sekarang nggak bisa, coba lagi besok",
+		"image": "dummy.jpg"
+	},
+	{
+		"id": 3,
+		"name": "Raditya Agung Wibowo",
+		"instagram": "rdtyaaw_",
+		"quote": "Kesempatan datang bagai awan berlalu. Pergunakanlah ketika ia nampak dihadapanmu.",
+		"image": "dummy.jpg"
+	}
+]

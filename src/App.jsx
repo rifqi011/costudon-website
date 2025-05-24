@@ -2,6 +2,7 @@ import React from "react"
 import Home from "./sections/Home"
 import Header from "./components/Header"
 import About from "./sections/About"
+import Members from "./sections/Members"
 
 function App() {
     return (
@@ -11,6 +12,8 @@ function App() {
             <Home />
 
             <About />
+
+            <Members />
         </>
 	)
 }
