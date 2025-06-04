@@ -1,23 +1,254 @@
 [
 	{
 		"id": 1,
-		"name": "Rifqi Banu Safingi",
-		"instagram": "alcyoneuzz",
-		"quote": "ling ga guli guli guli guaca lung ga guu",
-		"image": "dummy.jpg"
+		"name": "Adnan Febrian Nur Rizqullah",
+		"instagram": "adnan_iannn",
+		"quote": "Meskipun terlihat mustahil bagi kita, tetap langitkan, sebab tak ada yang mustahil bagi Allah SWT.",
+		"image": "adnan.jpg"
 	},
 	{
 		"id": 2,
-		"name": "Rizqi Raditya Paaramita",
-		"instagram": "rizqi_raditya1",
-		"quote": "Kalo sekarang nggak bisa, coba lagi besok",
-		"image": "dummy.jpg"
+		"name": "Afiv Adnan Rozaky",
+		"instagram": "afivadnn",
+		"quote": "Terus melangkah, meski pelan",
+		"image": "afiv.jpg"
 	},
 	{
 		"id": 3,
+		"name": "Alan Primadhani Ar Rizqi",
+		"instagram": "aln.prmdhni",
+		"quote": "Hari ini sulit, tapi bukan berarti besok sama",
+		"image": "alan.jpg"
+	},
+	{
+		"id": 4,
+		"name": "Alin Adila Subkhi",
+		"instagram": "alinadls_",
+		"quote": "Percaya pada proses, bukan hanya hasil",
+		"image": "alin.jpg"
+	},
+	{
+		"id": 5,
+		"name": "Anggita Restu Meilani",
+		"instagram": "anggitarestu__",
+		"quote": "Langkah kecil hari ini bisa jadi lompatan besar esok hari",
+		"image": "anggita.jpg"
+	},
+	{
+		"id": 6,
+		"name": "Azril Wiji Pratama",
+		"instagram": "azrielz_",
+		"quote": "Batasmu hanya sejauh keyakinanmu",
+		"image": "azril.jpg"
+	},
+	{
+		"id": 7,
+		"name": "Diva Nur Anggraeni",
+		"instagram": "d04veu",
+		"quote": "it's okay if today wasn't your day.",
+		"image": "diva.jpg"
+	},
+	{
+		"id": 8,
+		"name": "Fadhil Hilmy Ramadhan",
+		"instagram": "hilmyyrf",
+		"quote": "Mimpi besar memperlukan tekad besar.",
+		"image": "fadhil.jpg"
+	},
+	{
+		"id": 9,
+		"name": "Fadila Riska Amalia Juniar",
+		"instagram": "_ddilaa4",
+		"quote": "Pelan bukan berarti berhenti",
+		"image": "fadila.jpg"
+	},
+	{
+		"id": 10,
+		"name": "Fahri Alif Leksono",
+		"instagram": "antbcj",
+		"quote": "Setiap hari adalah kesempatan baru untuk jadi lebih baik",
+		"image": "fahri.jpg"
+	},
+	{
+		"id": 11,
+		"name": "Farrel Wiratama Ramadhan",
+		"instagram": "_pprrlll",
+		"quote": "Jangan lelah mencoba, karena gagal itu biasa",
+		"image": "farrel.jpg"
+	},
+	{
+		"id": 12,
+		"name": "Fikri Azka Ariputra",
+		"instagram": "tsdhjf21",
+		"quote": "Once a soul is broken, it'll hard to fix. Forever and Never.",
+		"image": "fikri.jpg"
+	},
+	{
+		"id": 13,
+		"name": "Firas Abdurrahman Sandro",
+		"instagram": "fas14_art",
+		"quote": "Bismillah menang rate off.",
+		"image": "firas.jpg"
+	},
+	{
+		"id": 14,
+		"name": "Firda Citra Aulia Zahramadan",
+		"instagram": "firdacitra.a",
+		"quote": "lah gue mah emang imut.",
+		"image": "firda.jpg"
+	},
+	{
+		"id": 15,
+		"name": "Hasna Nurasih Pramusita",
+		"instagram": "its.hasnaaa23",
+		"quote": "Jalanmu mungkin berbeda, tapi tujuannya tetap mulia",
+		"image": "hasna.jpg"
+	},
+	{
+		"id": 16,
+		"name": "Huseina Murtadho",
+		"instagram": "huseinmurtadho",
+		"quote": "gengsi membuatmu miskin.",
+		"image": "huseina.jpg"
+	},
+	{
+		"id": 17,
+		"name": "Isma Saskina Budiman",
+		"instagram": "ismasaskinaaa",
+		"quote": "Setiap langkah adalah kemajuan, sekecil apa pun itu",
+		"image": "isma.jpg"
+	},
+	{
+		"id": 18,
+		"name": "Kinarya Mahardika",
+		"instagram": "venkiin_",
+		"quote": "Saat kamu menyerah, ingat kenapa kamu mulai",
+		"image": "kinarya.jpg"
+	},
+	{
+		"id": 19,
+		"name": "Krisna Bayu Firmansyah",
+		"instagram": "kibayyu",
+		"quote": "Usaha keras tidak pernah mengkhianati hasil",
+		"image": "ubay.jpg"
+	},
+	{
+		"id": 20,
+		"name": "Krisna Cikal Danendra",
+		"instagram": "xellboyy",
+		"quote": "Terus bertumbuh, walau tak selalu terlihat",
+		"image": "cikal.jpg"
+	},
+	{
+		"id": 21,
+		"name": "Laras Faustina Rasendriya",
+		"instagram": "la.laras_",
+		"quote": "Kamu punya kekuatan untuk berubah",
+		"image": "laras.jpg"
+	},
+	{
+		"id": 22,
+		"name": "Mohamad Ken Yusuf Darmawansyah",
+		"instagram": "ken_yusufff",
+		"quote": "Berani melangkah adalah awal dari segalanya",
+		"image": "ken.jpg"
+	},
+	{
+		"id": 23,
+		"name": "Muhammad Azza Faizan",
+		"instagram": "azzafaizannn",
+		"quote": "semangat mantap.",
+		"image": "azza.jpg"
+	},
+	{
+		"id": 24,
+		"name": "Nathanniel Kevero Aryasatya Putra Elanio",
+		"instagram": "veroxn_el",
+		"quote": "Setiap orang punya waktunya masing-masing",
+		"image": "nathan.jpg"
+	},
+	{
+		"id": 25,
+		"name": "Naufal Azka Putra Difa",
+		"instagram": "naufal_azka74",
+		"quote": "Kesuksesan dimulai dari niat baik",
+		"image": "naufal.jpg"
+	},
+	{
+		"id": 26,
+		"name": "Nuha Pratama",
+		"instagram": "nuha.pratamaaa",
+		"quote": "Rasa lelah akan terbayar saat hasilnya datang",
+		"image": "nuha.jpg"
+	},
+	{
+		"id": 27,
+		"name": "Oca Ananda Restu Ramadhani",
+		"instagram": "ocaannd",
+		"quote": "Kamu jauh lebih mampu dari yang kamu kira",
+		"image": "oca.jpg"
+	},
+	{
+		"id": 28,
 		"name": "Raditya Agung Wibowo",
 		"instagram": "rdtyaaw_",
-		"quote": "Kesempatan datang bagai awan berlalu. Pergunakanlah ketika ia nampak dihadapanmu.",
-		"image": "dummy.jpg"
+		"quote": "Kesempatan datang bagai awan berlalu. Pergunakanlah ketika ia nampak dihadapanmu",
+		"image": "raditya.jpg"
+	},
+	{
+		"id": 29,
+		"name": "Rafaizal Firdaus Arbiansyah",
+		"instagram": "rafaiza8",
+		"quote": "Kecil atau besar, semua langkah tetap bernilai",
+		"image": "rafaizal.jpg"
+	},
+	{
+		"id": 30,
+		"name": "Rafi Putra Arya Witama",
+		"instagram": "rputrarya_",
+		"quote": "Kamu sedang berjalan, bukan mundur",
+		"image": "rafi.jpg"
+	},
+	{
+		"id": 31,
+		"name": "Rangga Bayu Pamungkas",
+		"instagram": "guz.rangga2",
+		"quote": "Mulai dulu, hasil belakangan",
+		"image": "rangga.jpg"
+	},
+	{
+		"id": 32,
+		"name": "Razya Barlean Dika",
+		"instagram": "brlleaan",
+		"quote": "Langit aja bisa berubah apalagi hati manusia.",
+		"image": "razya.jpg"
+	},
+	{
+		"id": 33,
+		"name": "Rifqi Banu Safingi",
+		"instagram": "alcyoneuzz",
+		"quote": "Stop ngoding, mending buka fesnuk.",
+		"image": "rifqi.jpg"
+	},
+	{
+		"id": 34,
+		"name": "Rizqi Raditya Paramita",
+		"instagram": "rizqi_raditya1",
+		"quote": "Kalo sekarang nggak bisa, coba lagi besok.",
+		"image": "rizqi.jpg"
+	},
+	{
+		"id": 35,
+		"name": "Soofi Amalia Almayka",
+		"instagram": "je.soo0_",
+		"quote": "Setiap tantangan menyimpan pelajaran",
+		"image": "soofi.jpg"
+	},
+	{
+		"id": 36,
+		"name": "Syafiq Galih Rengga Buana",
+		"instagram": "syafiqbuana",
+		"quote": "Diam Menyusun Logika, Bergerak Error semua.",
+		"image": "syafiq.jpg"
 	}
 ]

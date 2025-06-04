@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 // Import data members dari file JSON
 import membersData from "../data/members.json"
@@ -18,14 +18,45 @@ export default function MemberCard() {
 
 	const currentMember = members[currentIndex]
 
+	const [imageExists, setImageExists] = useState(false)
+	const [imageError, setImageError] = useState(false)
+
+	useEffect(() => {
+		const img = new Image()
+		img.src = `./images/members/${currentMember.image}`
+
+		img.onload = () => {
+			setImageExists(true)
+			setImageError(false)
+		}
+
+		img.onerror = () => {
+			setImageExists(false)
+			setImageError(true)
+		}
+
+		return () => {
+			img.onload = null
+			img.onerror = null
+		}
+	}, [currentMember.image])
+
 	return (
 		<div className="flex flex-col gap-6 items-center">
 			<div className="flex flex-col items-center justify-center bg-white border-3 border-black rounded-xl shadow-black overflow-hidden">
 				<div className="grid grid-cols-2">
 					<p className="p-3">{currentMember.quote}</p>
 
-					<div className="border-l-3 border-black overflow-hidden">
-						<img src={currentMember.image ? `./images/members/${currentMember.image}` : "./images/members/dummy.jpg"} className="aspect-[3/4 bg-cover object-cover h-full w-full bg-center]" alt={`Foto ${currentMember.name}`} />
+					<div className="border-l-3 border-black overflow-hidden relative">
+						<img
+							src={!imageError ? `./images/members/${currentMember.image}` : "./images/members/dummy.jpg"}
+							className="aspect-[3/4] bg-cover object-cover h-full w-full bg-center"
+							alt={`Foto ${currentMember.name}`}
+							onError={(e) => {
+								setImageError(true)
+								e.target.src = "./images/members/dummy.jpg"
+							}}
+						/>
 					</div>
 
 					<div className="px-3 pt-4 h-36 flex flex-col gap-2 col-span-2 border-t-3 border-black">
@@ -47,17 +78,14 @@ export default function MemberCard() {
 
 			{/* Navigation */}
 			<div className="flex items-center justify-center mt-6 space-x-6">
-				{/* Previous Button */}
 				<Icon onClick={prevSlide} className="bg-white !w-10 !h-10">
 					<ChevronLeft className="w-6 h-6 font-bold" />
 				</Icon>
 
-				{/* Pagination Counter */}
 				<div className="flex items-center space-x-2">
 					<span className="text-2xl font-bold">{String(currentIndex + 1).padStart(2, "0")}</span>
 				</div>
 
-				{/* Next Button */}
 				<Icon onClick={nextSlide} className="bg-white !w-10 !h-10">
 					<ChevronRight className="w-6 h-6 font-bold" />
 				</Icon>
