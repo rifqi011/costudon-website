@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function Image({ src, alt = "Image", className }) {
+export default function Image({ src, alt = "Image", className, onClick }) {
 	const [isClicked, setIsClicked] = useState(false)
 
 	const handleClick = () => {
