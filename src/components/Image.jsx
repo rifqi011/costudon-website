@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 
 export default function Image({ src, alt = "Image", className, onClick }) {
+    // Interaction
 	const [isClicked, setIsClicked] = useState(false)
 	const [modalOpen, setModalOpen] = useState(false)
 
@@ -26,7 +27,31 @@ export default function Image({ src, alt = "Image", className, onClick }) {
 		setTimeout(() => {
 			setModalOpen(true)
 		}, 100)
-	}
+    }
+    
+    // Error handling
+    const [imageExists, setImageExists] = useState(false)
+    const [imageError, setImageError] = useState(false)
+
+	useEffect(() => {
+		const imgElement = new window.Image()
+		imgElement.src = src
+
+		imgElement.onload = () => {
+			setImageExists(true)
+			setImageError(false)
+		}
+
+		imgElement.onerror = () => {
+			setImageExists(false)
+			setImageError(true)
+		}
+
+		return () => {
+			imgElement.onload = null
+			imgElement.onerror = null
+		}
+    }, [src])
 
 	return (
 		<>
@@ -37,7 +62,7 @@ export default function Image({ src, alt = "Image", className, onClick }) {
 				}}
 				className={`overflow-hidden shadow-black rounded-xl border-3 border-black ${isClicked ? "animate-clicked" : ""} ${className}`}
 			>
-				<img src={src} alt={alt} className="object-cover bg-cover h-full w-full" loading="lazy" />
+				<img src={imageExists || !imageError ? src : "./images/dummy.jpg"} alt={alt} className="object-cover bg-cover h-full w-full" loading="lazy" />
 			</div>
 
             <div
