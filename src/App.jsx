@@ -4,6 +4,7 @@ import Header from "./components/Header"
 import About from "./sections/About"
 import Members from "./sections/Members"
 import Gallery from "./sections/Gallery"
+import Achievements from "./sections/Achievements"
 
 function App() {
     return (
@@ -17,6 +18,8 @@ function App() {
             <Members />
 
             <Gallery />
+
+            <Achievements />
         </>
 	)
 }
