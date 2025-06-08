@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react"
+import MobileMenu from "./Navigation"
 
 export default function Header() {
+    // Scroll effect
 	const [isScrolled, setIsScrolled] = useState(false)
 
 	useEffect(() => {
@@ -10,17 +12,38 @@ export default function Header() {
 
 		window.addEventListener("scroll", handleScroll)
 		return () => window.removeEventListener("scroll", handleScroll)
-	}, [])
+    }, [])
+    
+    // Open menu
+    const [menuOpen, setMenuOpen] = useState(false)
+
+    useEffect(() => {
+        if (menuOpen) {
+            document.body.style.overflow = "hidden"
+        } else {
+            document.body.style.overflow = "unset"
+        }
+
+        return () => {
+            document.body.style.overflow = "unset"
+        }
+    }, [menuOpen])
+
+    const toggleMenu = () => {
+        setMenuOpen(!menuOpen)
+    }
 
 	return (
-		<header className={`top-0 left-0 w-full fixed z-50 container mx-auto px-4 py-5 transition-all duration-200 ease-in-out ${isScrolled ? "bg-white shadow-md border-b-2 border-black" : "bg-transparent"}`}>
+		<header className={`top-0 left-0 w-full fixed z-50 container mx-auto px-4 py-5 transition-all duration-200 ease-in-out ${isScrolled ? "bg-white shadow-md border-b-3 border-black" : "bg-transparent"}`}>
 			<div className="relative w-full flex items-center">
 				<a href="#" className={`text-2xl font-semibold text-black left-0 transition-all duration-700 ease-out ${isScrolled ? "opacity-100 translate-x-0 w-full" : "opacity-0 -translate-x-12 w-0"}`}>
 					Costudon
-				</a>
+                </a>
+                
+                <MobileMenu toggleMenu={toggleMenu} isOpen={menuOpen} />
 
 				{/* SVG Container dengan animasi yang diperbaiki */}
-				<div className={`transition-all duration-700 ease-in-out`}>
+				<div onClick={toggleMenu} className={`transition-all duration-700 ease-in-out`}>
 					<button className="relative w-10 h-8 flex items-center justify-center">
 						{/* Container untuk kedua SVG dengan animasi yang sinkron */}
 						<div className="relative w-full h-full">
