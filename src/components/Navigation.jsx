@@ -2,23 +2,23 @@ import { useState, useEffect } from "react"
 
 const Menu = [
 	{
-		name: "Home",
+		name: "Beranda",
 		href: "#home",
 	},
 	{
-		name: "About",
+		name: "Tentang Kami",
 		href: "#about",
 	},
 	{
-		name: "Members",
+		name: "Anggota",
 		href: "#members",
 	},
 	{
-		name: "Gallery",
+		name: "Galeri",
 		href: "#gallery",
 	},
 	{
-		name: "Achievements",
+		name: "Prestasi",
 		href: "#achievements",
 	},
 ]
@@ -53,7 +53,7 @@ export default function MobileMenu({ isOpen, toggleMenu }) {
 			{/* Overlay */}
 			<div className={`fixed inset-0 bg-black/50 z-40 transition-opacity duration-300 ${isOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`} onClick={toggleMenu}></div>
 
-			<div className={`fixed top-0 h-svh w-3/4 bg-white z-50 border-r-3 border-black duration-300 ease-in-out transition-all ${isOpen ? " left-0" : "-left-full"}`}>
+			<div className={`fixed top-0 h-screen w-3/4 bg-white z-50 border-r-3 border-black duration-300 ease-in-out transition-all ${isOpen ? " left-0" : "-left-full"}`}>
 				<div className="flex justify-between items-center px-4 py-5 border-b-3 border-black">
 					<h1 className="text-2xl font-semibold text-black">Costudon</h1>
 
