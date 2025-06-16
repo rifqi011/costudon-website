@@ -3,25 +3,25 @@ import Icon from "./Icon"
 import Developers from "./Developers"
 
 export default function Footer() {
-    const currentYear = new Date().getFullYear()
+	const currentYear = new Date().getFullYear()
 
-    const [openDevelopers, setOpenDevelopers] = useState(false)
+	const [openDevelopers, setOpenDevelopers] = useState(false)
 
-    const toggleDevelopers = () => {
-        setOpenDevelopers(!openDevelopers)
-    }
+	const toggleDevelopers = () => {
+		setOpenDevelopers(!openDevelopers)
+	}
 
-    useEffect(() => {
-        if (openDevelopers) {
-            document.body.style.overflow = "hidden"
-        } else {
-            document.body.style.overflow = "unset"
-        }
+	useEffect(() => {
+		if (openDevelopers) {
+			document.body.style.overflow = "hidden"
+		} else {
+			document.body.style.overflow = "unset"
+		}
 
-        return () => {
-            document.body.style.overflow = "unset"
-        }
-    }, [openDevelopers])
+		return () => {
+			document.body.style.overflow = "unset"
+		}
+	}, [openDevelopers])
 
 	return (
 		<footer className="bg-light-yellow flex flex-col gap-8 pt-4 container border-t-3 border-black">
@@ -29,13 +29,13 @@ export default function Footer() {
 				<p className="text-pretty text-sm">Costudon adalah kelas paling unik di SMK Negeri 1 Purwokerto</p>
 
 				<div className="flex gap-4">
-					<Icon href="https://tiktok.com/@costudon" className="!w-10 !h-10">
+					<Icon href="https://www.tiktok.com/@costudon_smecone" className="!w-10 !h-10">
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
 							<path d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
 						</svg>
 					</Icon>
 
-					<Icon href="https://instagram.com/costudon" className="!w-10 !h-10">
+					<Icon href="https://www.instagram.com/costudon.pplg1" className="!w-10 !h-10">
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-instagram-icon lucide-instagram">
 							<rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
 							<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
@@ -45,7 +45,10 @@ export default function Footer() {
 				</div>
 
 				<div className="flex gap-2">
-					<p>&copy; {currentYear} Costudon</p> |<p className="underline cursor-pointer" onClick={toggleDevelopers}>Pengembang</p>
+					<p>&copy; {currentYear} Costudon</p> |
+					<p className="underline cursor-pointer" onClick={toggleDevelopers}>
+						Pengembang
+					</p>
 				</div>
 			</div>
 
@@ -56,9 +59,9 @@ export default function Footer() {
 						fill="black"
 					/>
 				</svg>
-            </div>
-            
-            <Developers isOpen={openDevelopers} toggle={toggleDevelopers} />
+			</div>
+
+			<Developers isOpen={openDevelopers} toggle={toggleDevelopers} />
 		</footer>
 	)
 }
