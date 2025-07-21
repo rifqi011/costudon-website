@@ -20,7 +20,7 @@ export default function MemberCard() {
 	const currentMember = members[currentIndex]
 
     return (
-		<div className="flex flex-col gap-6 items-center">
+		<div className="flex flex-col gap-6 items-center mx-auto max-w-xl">
 			<div className="flex flex-col items-center justify-center bg-white border-3 border-black rounded-xl shadow-black overflow-hidden">
 				<div className="grid grid-cols-2">
 					<p className="p-3">{currentMember.quote}</p>

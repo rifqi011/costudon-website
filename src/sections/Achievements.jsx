@@ -46,8 +46,8 @@ export default function Achievements() {
 		<Section id={"achievements"} className={"bg-yellow"}>
 			<SectionTitle title={"Prestasi"} description={"Lihatlah jejak gemilang yang telah kami ukir! Setiap pencapaian adalah milestone yang menginspirasi kami untuk terus berinovasi dan meraih lebih banyak lagi."} />
 
-			<div className="flex flex-col gap-6">
-				<Image src={`./images/achievements/${activeIndex + 1}.jpg`} className={`aspect-[4/3]`} alt="Foto Prestasi" />
+			<div className="flex flex-col gap-6 md:flex-row">
+				<Image src={`./images/achievements/${activeIndex + 1}.jpg`} className={`aspect-[4/3] w-full`} alt="Foto Prestasi" />
 
 				<div className="flex flex-col gap-4">
 					{AchievementsData.map((data, index) => (
