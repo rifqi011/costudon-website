@@ -31,11 +31,11 @@ export default function Developers({ isOpen, toggle }) {
 			{/* Overlay */}
 			<div className={`fixed inset-0 bg-black/50 z-50 transition-opacity duration-300 ${isOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`} onClick={toggle}></div>
 
-			<div className={`fixed left-0 max-h-3/4 w-full px-4 py-5 bg-white border-t-3 border-black transition-all duration-300 ease-in-out z-60 ${isOpen ? "bottom-0" : "-bottom-full"}`}>
+			<div className={`container fixed left-0 max-h-3/4 w-full px-4 py-5 bg-white border-t-3 border-black transition-all duration-300 ease-in-out z-60 ${isOpen ? "bottom-0" : "-bottom-full"}`}>
 				<div className="flex justify-between items-center">
 					<h3 className="text-2xl font-medium">Para Pengembang</h3>
 
-					<div onClick={toggle}>
+					<div onClick={toggle} className="cursor-pointer">
 						<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 40 40" fill="none">
 							<path d="M36.9705 3.02954L3.02933 36.9707" stroke="black" strokeWidth="8" />
 							<path d="M3.02954 3.02954L36.9707 36.9707" stroke="black" strokeWidth="8" />
@@ -43,9 +43,9 @@ export default function Developers({ isOpen, toggle }) {
 					</div>
 				</div>
 
-				<div className="mt-8 flex flex-col gap-4">
+				<div className="mt-8 flex flex-col gap-4 md:flex-row">
 					{Teams.map((item, index) => (
-						<div key={index} className=" flex gap-4">
+						<div key={index} className=" flex gap-4 flex-1">
 							<Image src={`./images/members/${item.image}`} alt={`Foto ${item.name}`} className="aspect-square w-1/3" />
 
 							<div className="flex flex-col gap-3">
