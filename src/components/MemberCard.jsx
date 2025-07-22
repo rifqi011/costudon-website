@@ -23,10 +23,10 @@ export default function MemberCard() {
 		<div className="flex flex-col gap-6 items-center mx-auto max-w-xl">
 			<div className="flex flex-col items-center justify-center bg-white border-3 border-black rounded-xl shadow-black overflow-hidden">
 				<div className="grid grid-cols-2">
-					<p className="p-3">{currentMember.quote}</p>
+					<p className="p-3 md:text-2xl font-semibold">{currentMember.quote}</p>
 
 					<div className="border-l-3 border-black overflow-hidden relative">
-						<Image src={`./images/members/${currentMember.image}`} alt={`Foto ${currentMember.name}`} className="!rounded-none !border-0 !shadow-none aspect-[3/4]" />
+						<Image src={`./images/members/${currentMember.image}`} alt={`Foto ${currentMember.name}`} className="!rounded-none !border-0 !shadow-none aspect-[3/4] md:aspect-square" />
 					</div>
 
 					<div className="px-3 pt-4 h-36 flex flex-col gap-2 col-span-2 border-t-3 border-black">
