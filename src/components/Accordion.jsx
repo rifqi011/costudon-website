@@ -2,7 +2,7 @@ import { ChevronDown } from "lucide-react"
 
 export default function Accordion({ title, description, isActive, onClick, className }) {
 	return (
-		<div onClick={onClick} className={`flex flex-col bg-teal shadow-black rounded-xl border-3 border-black transition-all duration-300 ease-in-out cursor-pointer ${className}`}>
+		<div onClick={onClick} className={`flex flex-col bg-blue shadow-black rounded-xl border-3 border-black transition-all duration-300 ease-in-out cursor-pointer ${className}`}>
 			<div className="flex justify-between items-center px-4 pt-3">
 				<h3 className="font-medium text-lg">{title}</h3>
 

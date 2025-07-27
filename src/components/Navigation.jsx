@@ -73,7 +73,7 @@ export default function MobileMenu({ isOpen, toggleMenu }) {
 							<li key={index}>
 								<a
 									href={item.href}
-									className={`block px-4 py-4 border-b-3 border-black font-semibold text-xl transition-colors duration-300 ease ${activeSection === sectionId ? "bg-teal" : ""}`}
+									className={`block px-4 py-4 border-b-3 border-black font-semibold text-xl transition-colors duration-300 ease ${activeSection === sectionId ? "bg-blue" : ""}`}
 									onClick={() => {
 										setActiveSection(sectionId)
 										toggleMenu()
