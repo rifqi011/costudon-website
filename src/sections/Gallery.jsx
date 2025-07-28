@@ -26,7 +26,7 @@ export default function Gallery() {
 
 	return (
 		<Section id="gallery" className={"bg-yellow"}>
-			<SectionTitle title={"galeri"} description={"Selami visualisasi perjalanan PPLG 1 '26! Di sini, setiap foto dan video adalah commit yang menceritakan kisah, proyek, dan momen kebersamaan kami. Jelajahi memori yang kami bangun bersama!"} />
+			<SectionTitle title={"Commits of Memories"} description={"Selami visualisasi perjalanan PPLG 1 '26! Di sini, setiap foto dan video adalah commit yang menceritakan kisah, proyek, dan momen kebersamaan kami. Jelajahi memori yang kami bangun bersama!"} />
 
 			<div className="columns-2 gap-4 [&>div]:mb-4">
 				{images.map((image, index) => (
