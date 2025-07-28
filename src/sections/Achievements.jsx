@@ -8,26 +8,36 @@ import Accordion from "../components/Accordion"
 const AchievementsData = [
 	{
 		id: 1,
+		title: "Juara 2 ESport",
+		description: "Pemenang Juara 2 di Esport SMK Negeri 1 Purwokerto pada Classmeet Juni 2025.",
+	},
+	{
+		id: 2,
+		title: "Juara 3 Sambung Melodi",
+		description: "Pemenang Juara 3 di Sambung Melodi SMK Negeri 1 Purwokerto pada Classmeet Juni 2025.",
+	},
+	{
+		id: 3,
 		title: "Juara 1 ESport",
 		description: "Pemenang Juara 1 di Esport SMK Negeri 1 Purwokerto pada Classmeet Desember 2024.",
 	},
 	{
-		id: 2,
+		id: 4,
 		title: "Juara 1 Kempit Sedotan",
 		description: "Pemenang Juara 1 di Kempit Sedotan SMK Negeri 1 Purwokerto pada Classmeet Desember 2024.",
 	},
 	{
-		id: 3,
-		title: "Juara 3 Futsal Putra",
-		description: "Pemenang Juara 1 di Futsal Putra SMK Negeri 1 Purwokerto pada Classmeet Desember 2024.",
-	},
-	{
-		id: 4,
-		title: "Juara 2 ESport",
-		description: "Pemenang Juara 1 di Esport SMK Negeri 1 Purwokerto pada Classmeet Agustus 2024.",
-	},
-	{
 		id: 5,
+		title: "Juara 3 Futsal Putra",
+		description: "Pemenang Juara 3 di Futsal Putra SMK Negeri 1 Purwokerto pada Classmeet Desember 2024.",
+	},
+	{
+		id: 6,
+		title: "Juara 2 ESport",
+		description: "Pemenang Juara 2 di Esport SMK Negeri 1 Purwokerto pada Classmeet Agustus 2024.",
+	},
+	{
+		id: 7,
 		title: "Juara 2 Vlog Job Fair",
 		description: "Pemenang Juara 2 Vlog Job Fair SMK Negeri 1 Purwokerto tahun 2024",
 	},
