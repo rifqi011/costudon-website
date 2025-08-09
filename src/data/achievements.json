@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Juara 2 P5 Kearifan Lokal",
+        "description": "Pemenang Juara 2 di P5 Kearifan Lokal SMK Negeri 1 Purwokerto pada Tahun 2024.",
+        "image": "./images/achievements/juara-2-p5-kearifan-lokal-2025.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Juara 2 Karnaval HUT RI Ke-78",
+        "description": "Pemenang Juara 2 di Karnaval HUT RI Ke-78 SMK Negeri 1 Purwokerto pada Tahun 2023.",
+        "image": "./images/achievements/juara-2-karnaval-hut-ri-ke-79.jpg"
+    },
+	{
+		"id": 3,
+		"title": "Juara 2 ESport",
+		"description": "Pemenang Juara 2 di Esport SMK Negeri 1 Purwokerto pada Classmeet Juni 2025.",
+        "image": "./images/achievements/juara-2-esport-juni-2025.jpg"
+	},
+	{
+		"id": 4,
+		"title": "Juara 3 Sambung Melodi",
+		"description": "Pemenang Juara 3 di Sambung Melodi SMK Negeri 1 Purwokerto pada Classmeet Juni 2025.",
+        "image": "./images/achievements/juara-3-sambung-melodi-juni-2025.jpg"
+	},
+	{
+		"id": 5,
+		"title": "Juara 1 ESport",
+		"description": "Pemenang Juara 1 di Esport SMK Negeri 1 Purwokerto pada Classmeet Desember 2024.",
+        "image": "./images/achievements/juara-1-esport-desember-2024.jpg"
+	},
+	{
+		"id": 6,
+		"title": "Juara 1 Kempit Sedotan",
+		"description": "Pemenang Juara 1 di Kempit Sedotan SMK Negeri 1 Purwokerto pada Classmeet Desember 2024.",
+        "image": "./images/achievements/juara-1-kempit-sedotan-desember-2024.jpg"
+	},
+	{
+		"id": 7,
+		"title": "Juara 3 Futsal Putra",
+		"description": "Pemenang Juara 3 di Futsal Putra SMK Negeri 1 Purwokerto pada Classmeet Desember 2024.",
+        "image": "./images/achievements/juara-3-futsal-putra-desember-2024.jpg"
+	},
+	{
+		"id": 8,
+		"title": "Juara 2 ESport",
+		"description": "Pemenang Juara 2 di Esport SMK Negeri 1 Purwokerto pada Classmeet Agustus 2024.",
+        "image": "./images/achievements/juara-2-esport-agustus-2024.jpg"
+	},
+	{
+		"id": 9,
+		"title": "Juara 2 Vlog Job Fair",
+		"description": "Pemenang Juara 2 Vlog Job Fair SMK Negeri 1 Purwokerto tahun 2024",
+        "image": "./images/achievements/juara-2-vlog-job-fair-2025.jpg"
+	}
+]
