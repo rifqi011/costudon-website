@@ -17,7 +17,7 @@ export default function Achievements() {
 
 	return (
 		<Section id={"achievements"} className={"bg-yellow"}>
-			<SectionTitle title={"Milestone Tracker"} description={"Lihatlah jejak gemilang yang telah kami ukir! Setiap pencapaian adalah milestone yang menginspirasi kami untuk terus berinovasi dan meraih lebih banyak lagi."} />
+			<SectionTitle title={"Milestone Tracker"} description={"Lihatlah jejak gemilang yang telah kami ukir! Setiap pencapaian adalah milestone yang menginspirasi kami untuk terus berinovasi dan meraih lebih banyak lagi."} className={"lg:w-4/6"} />
 
 			<div className="flex flex-col gap-6 md:flex-row">
 				<Image src={`./${AchievementsData[activeIndex].image}`} className={`aspect-[4/3] w-full`} alt="Foto Prestasi" />
