@@ -6,6 +6,7 @@ import Members from "./sections/Members"
 import Gallery from "./sections/Gallery"
 import Achievements from "./sections/Achievements"
 import Footer from "./components/Footer"
+import Teachers from "./sections/Teachers"
 
 function App() {
     return (
@@ -15,6 +16,8 @@ function App() {
             <Home />
 
             <About />
+
+            <Teachers />
 
             <Members />
 

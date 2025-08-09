@@ -1,0 +1,23 @@
+[
+	{
+		"id": 1,
+		"name": "Bapak Yoga Willy Utomo, S.Kom.",
+		"image": "./images/teachers/pakwilly.jpg",
+		"instagram": "_yogawilly",
+		"description": "Wali Kelas 12"
+	},
+	{
+		"id": 2,
+		"name": "Ibu Sugiarti, S.Pd.",
+		"image": "./images/teachers/busugi.jpg",
+		"instagram": "pompiiii_",
+		"description": "Wali Kelas 11"
+	},
+	{
+		"id": 3,
+		"name": "Ibu Ingga Rossi Ramadhani, S.Kom.",
+		"image": "./images/teachers/buingga.jpg",
+		"instagram": "inggarossi",
+		"description": "Wali Kelas 10"
+	}
+]
