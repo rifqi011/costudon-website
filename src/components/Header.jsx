@@ -34,7 +34,7 @@ export default function Header() {
     }
 
 	return (
-		<header className={`top-0 left-0 w-full fixed z-50 container mx-auto px-4 py-5 transition-all duration-200 ease-in-out ${isScrolled ? "bg-white shadow-md border-b-3 border-black" : "bg-transparent"}`}>
+		<header className={`top-0 left-0 w-full fixed z-50 mx-auto px-[5%] py-5 transition-all duration-200 ease-in-out ${isScrolled ? "bg-white shadow-md border-b-3 border-black" : "bg-transparent"}`}>
 			<div className="relative w-full flex items-center">
 				<a href="#" className={`text-2xl font-semibold text-black left-0 transition-all duration-700 ease-out ${isScrolled ? "opacity-100 translate-x-0 w-full" : "opacity-0 -translate-x-12 w-0"}`}>
 					Costudon
