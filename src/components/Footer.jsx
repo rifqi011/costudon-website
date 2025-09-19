@@ -24,7 +24,7 @@ export default function Footer() {
 	}, [openDevelopers])
 
 	return (
-		<footer className="bg-light-yellow flex flex-col gap-8 pt-4 container border-t-3 border-black">
+		<footer className="bg-light-yellow flex flex-col gap-8 pt-4 container border-t-3 !max-w-full border-black">
 			<div className="flex flex-col gap-4">
 				<p className="text-pretty text-sm">Costudon adalah kelas paling unik di SMK Negeri 1 Purwokerto</p>
 
